@@ -11,12 +11,12 @@ maze52.java / maze52.jar:
 Design and implement the following task. After a maze is generated, we like to save the maze into a text file. A maze can be represented by an object of MxN matrix (or of an MxN array). By placing a character of " " for an open cell (that an agent can occupy or pass through) and "#" for a wall (that is, a closed or blocked cell that an agent cannot occupy or pass through). A closed cell is a piece of wall to block an agent to move in over the cell. Initially the start cell is marked in red and the goal cell is marked in green. The blocked cell is marked in black. Also note that the border (the outer cells) should be marked as blocked.
 
 The output of the maze to a text file will be: 
-"
+
 #####
 # #G#
 # # #
 #S  #
-##### "
+##### 
 
 In the saved text file of a maze, each open (unblocked) cell is represented by a blank character and each closed (blocked) cell is represented by a "#" character. The start cell is marked as "S" character and the goal is marked as "G" character. 
 
